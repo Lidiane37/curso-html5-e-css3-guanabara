@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fontelidiane;
+    src: url(fontes/Letter\ Blocks\ Demo.otf);
+}
+body{
+    background-image: linear-gradient(to right, #8C7120, #8C5C20);
+}
+main{
+    background-color: aliceblue;
+    width: 40em;
+    padding: 10px;
+    margin: auto;
+    border-radius: 2em;
+    box-shadow:1em 1em 1em #180f05;
+}
+
+h1{
+    color: #54592C;
+    text-align: center;
+}
+
+#principal{
+    font-family: fontelidiane;
+    color: #8C2A2A;
+    font-size: 2em;
+
+}
+h2{
+    color: #645209;
+
+}
+
+p{
+    text-align: justify;
+}
+div{
+    display: inline-block;
+
+    background-color:#54592C;
+    text-align: center;
+    height: 3em;
+    width: 7em;
+    color: white;
+}
+
+div:hover{
+    background-color:#8C5C20;
+}
